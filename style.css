@@ -1,0 +1,44 @@
+*{
+    text-align: center; 
+}
+body{
+    font-family: 'Iranian Sans';
+}
+@font-face {
+    font-family: 'Iranian Sans';
+    src: url(A-Iranian-Sans/Iranian\ Sans.ttf),format("truetype");
+}
+input{
+    width: 410px;
+    text-align: right;
+    font-size: 15px;
+}
+textarea{
+    text-align: right;
+    font-size: 15px;
+}
+button{
+    padding: 8px;
+    background-color: rgb(91, 91, 248);
+    color: white;
+    font-size: 15px;
+    border-color: rgb(160, 160, 160);
+}
+button:hover{
+    background-color: rgb(148, 148, 245);
+}
+div{
+    display: inline-block;
+    border: 1px solid rgb(112, 111, 111);
+    margin-right: 8px;
+    padding: 50px;
+}
+div.tel{
+    height: 167px;
+}
+a{
+   color: black;
+}
+a:hover{
+    color: rgb(92, 92, 252);
+}
